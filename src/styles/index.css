@@ -1,11 +1,33 @@
-/* 
+body {
+    background: black;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+.counter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    color: white;
+    margin-top: 20vh;
+}
+  
+.digit, .calendar {
+    background: black;
+    color: white;
+    padding: 20px 30px;
+    margin: 5px;
+    border-radius: 10px;
+    width: 50px;
+    height: 70px;
+    text-align: center;
+    border: 2px solid grey;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.calendar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
